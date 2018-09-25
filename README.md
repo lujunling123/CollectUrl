@@ -1,2 +1,2 @@
-# CollectUrl
-CollectUrl
+# 手机界面设计中12种常用布局
+https://www.xuanfengge.com/12-kinds-of-commonly-used-in-mobile-interface-design-layout.html
