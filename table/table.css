@@ -1,0 +1,11 @@
+#tableAdd{
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+}
+.td_class{
+    width: 100px;
+    border: 1px solid pink;
+    padding: 10px 20px;
+    text-align: center;
+}
