@@ -5,8 +5,8 @@ http://www.jq22.com/yanshi20230
 ## vue等各种 npm 插件 (轮子工厂)
 http://www.wheelsfactory.cn/#/home
 
-###  自己的提交记录，以及文件的对应介绍
-####  添加动态添加table及给对应td添加事件
-####  新增固定宽度的轮播图 slidel
-####  新增 动态添加input行
+###  自己的提交记录，以及文件的对应介绍  
+####  添加动态添加table及给对应td添加事件  （table）
+####  新增固定宽度的轮播图   （slidel） 
+####  新增 动态添加input行   （input）
 ![动态添加input行](https://github.com/lujunling123/CollectUrl/blob/master/add_input/images/addinput.png)
