@@ -83,9 +83,9 @@
         }
     </style>
     <script>
+      var inputData=[],inputval=[]
+      var renzheng=false
         $(function () {
-          var inputData=[]
-          var inputval=[]
           $('.add_yy').click(function () {
             addChilde()
           })
@@ -110,6 +110,13 @@
                 }
             }
             console.log(inputData)
+            renzheng=true
+            deleted()
+          }
+          function deleted () {
+            if (renzheng) {
+              inputData=[]
+            }
           }
           function addBut () {
             var p = '<p id="button">发布</p>'
@@ -120,8 +127,8 @@
           }
           addBut()
         });
-        function deleteRow () {
-
+        function deleteRow (item) {
+           $(item).parent().remove()
         }
     </script>
 </head>
