@@ -10,3 +10,4 @@ http://www.wheelsfactory.cn/#/home
 ####  新增固定宽度的轮播图   （slidel） 
 ####  新增 动态添加input行   （add_input）
 ![动态添加input行](https://github.com/lujunling123/CollectUrl/blob/master/add_input/images/addinput.png)
+####  添加左右布局  （布局）
