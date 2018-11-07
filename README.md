@@ -1,5 +1,7 @@
 ## 手机界面设计中12种常用布局
 https://www.xuanfengge.com/12-kinds-of-commonly-used-in-mobile-interface-design-layout.html
+## 关于禁止图片默认拖动行为动作几种方式
+https://www.cnblogs.com/chaoyuehedy/p/5726802.html
 ## jquery 特效网站
 http://www.jq22.com/yanshi20230
 ## vue等各种 npm 插件 (轮子工厂)
