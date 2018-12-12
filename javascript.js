@@ -77,3 +77,19 @@ if (!has){
 1.base64
 2.formdata
 3.二进制*/
+
+
+// 使用var _this = this
+// 问题一:
+//     不知道楼主有没有接触过jquery jquery里边有一个特别典型的例子能说明用_this的作用
+// $("#btn").click(function(){
+//     var _this = this;//这里this和_this都代表了"#btn"这个对象
+//     $(".tr").each(function(){
+//         this;//在这里this代表的是每个遍历到的".tr"对象
+//         _this;//仍代表"#btn"对象
+//     })
+// })
+// 这种情况就是在一个代码片段里this有可能代表不同的对象,而编码者希望_this代表最初的对象
+// 问题2:
+    // 其实并没有全部使用_this
+    // 但是据我所看,应该没有任何区别的,楼主的代码里用_this可能只是为了编码规范吧
