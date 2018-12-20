@@ -13,3 +13,5 @@ http://www.wheelsfactory.cn/#/home
 ####  新增 动态添加input行   （input add.html）
 ![动态添加input行](https://github.com/lujunling123/CollectUrl/blob/master/add_input/images/addinput.png)
 ####  添加左右布局  （布局）
+###  vue使用Element组件时v-for循环里的表单项验证
+https://segmentfault.com/a/1190000015408632
