@@ -78,18 +78,19 @@ if (!has){
 2.formdata
 3.二进制*/
 
+// ES6中如何删除数组中的重复项
+const array = ['🐷',1, 2,'🐷','🐷', 3]
+// 第①种: 'Set'
+[... new Set(array)]
+// 第②种: 'Filter'
+array.filter((item, index) => array.indexOf(item) === index)
+// 第③种: 'Reduce'
+array.reduce((unique, item) => unique.includes(item) ? unique : [...unique, item], [])
+// 返回结果
+[ '🐷', 1, 2, 3 ]
+// ES6中如何删除a中包含b的数据 
+let a = ['1', '2', '3', '4']
+let b = ['2', '3']
+// 方法①
+a.filter((item, index) => b.indexOf(item) == -1)
 
-// 使用var _this = this
-// 问题一:
-//     不知道楼主有没有接触过jquery jquery里边有一个特别典型的例子能说明用_this的作用
-// $("#btn").click(function(){
-//     var _this = this;//这里this和_this都代表了"#btn"这个对象
-//     $(".tr").each(function(){
-//         this;//在这里this代表的是每个遍历到的".tr"对象
-//         _this;//仍代表"#btn"对象
-//     })
-// })
-// 这种情况就是在一个代码片段里this有可能代表不同的对象,而编码者希望_this代表最初的对象
-// 问题2:
-    // 其实并没有全部使用_this
-    // 但是据我所看,应该没有任何区别的,楼主的代码里用_this可能只是为了编码规范吧
