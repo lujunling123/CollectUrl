@@ -78,19 +78,23 @@ if (!has){
 2.formdata
 3.二进制*/
 
-// ES6中如何删除数组中的重复项
+// ###ES6中如何删除数组中的重复项
 const array = ['🐷',1, 2,'🐷','🐷', 3]
-// 第①种: 'Set'
+// ###第①种: 'Set'
 [... new Set(array)]
-// 第②种: 'Filter'
+// ###第②种: 'Filter'
 array.filter((item, index) => array.indexOf(item) === index)
-// 第③种: 'Reduce'
+// ###第③种: 'Reduce'
 array.reduce((unique, item) => unique.includes(item) ? unique : [...unique, item], [])
 // 返回结果
 [ '🐷', 1, 2, 3 ]
-// ES6中如何删除a中包含b的数据 
+
+// ###ES6中如何删除a中包含b的数据 
 let a = ['1', '2', '3', '4']
 let b = ['2', '3']
 // 方法①
 a.filter((item, index) => b.indexOf(item) == -1)
+// 方法②
+b = new Set(b)
+a.filter(item => !b.has(item) === item )
 
